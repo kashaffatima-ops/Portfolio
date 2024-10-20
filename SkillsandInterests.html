@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+      .hovereffect:hover {
+           transform: scale(1.05);
+           box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+         }
+       .hovereffect{
+          transition: transform 0.5s ease,box-shadow 0.5s ease;
+       }
+   </style>
+   
+
+
+  </head>
+  <body>
+    <div class="skills-wrapper h-full w-auto">
+      <header class="header">
+        <img class="logo" src="homePageLogo.png" alt="Skills Page Logo" />
+        <nav class="nav" >
+          <a href="index.html" style="   font-size: larger; font-weight: bold;">Home</a>
+          <a href="personelProfilePage.html" style="   font-size: larger; font-weight: bold;">Profile</a>
+          <a href="GalleryPage.html" style="   font-size: larger; font-weight: bold;">Gallery</a>
+          <a href="CareerGoals.html" style="   font-size: larger; font-weight: bold;">Career Goals</a>
+          <a href="Projects.html" style="   font-size: larger; font-weight: bold;">Projects</a>
+          <a href="SkillsandInterests.html" style="   font-size: larger; font-weight: bold;" >Skills and Interests</a>
+          <a href="ContactUs.html" style="   font-size: larger; font-weight: bold;">Contact Me</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="contentbox bg-opacity-50 hovereffect">
+          <h1 class="intereststitle">My Skills</h1>
+          <div class="skillscontainer">
+            <div class="skillitem">
+              <label for="html">HTML</label>
+              <progress id="html" value="80" max="100"></progress>
+            </div>
+            <div class="skillitem">
+              <label for="css">CSS</label>
+              <progress id="css" value="70" max="100"></progress>
+            </div>
+            <div class="skillitem">
+              <label for="js">JavaScript</label>
+              <progress id="js" value="60" max="100"></progress>
+            </div>
+            <div class="skillitem">
+              <label for="flutter">Flutter</label>
+              <progress id="flutter" value="75" max="100"></progress>
+            </div>
+            <div class="skillitem">
+              <label for="java">Java</label>
+              <progress id="java" value="85" max="100"></progress>
+            </div>
+          </div>
+        </section>
+
+        <section class="contentboxinterests bg-opacity-50 hovereffect">
+          <h2 class="intereststitle">Interests</h2>
+          <p class="interestsdescription" style="margin-left: 70px;text-align: justify;text-indent: 30px; margin-top: 40px;">
+           1. I have a strong passion for development, particularly in software engineering. The process of turning ideas into functional applications excites me. I enjoy working on backend development because it challenges me to think critically about how systems operate behind the scenes. 
+           <br><br>
+           2. Chess has been a long-standing interest of mine, offering a mental challenge that I thoroughly enjoy. The strategic depth of the game appeals to my analytical side, as it requires careful planning and the ability to think multiple steps ahead. 
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Contact me:</p>
+        <a href="https://www.instagram.com/_kashaf_9484_?igsh=eXhnc3FlZDVxdHVv"><i class="fab fa-instagram mylinkskills"></i></a>
+        
+        <a href="https://www.facebook.com/kashaf.fatima.14606936?mibextid=ZbWKwL" ><i class="fab fa-facebook mylinkskills"></i></a>
+
+        
+
+      </footer>
+    </div>
+  </body>
+</html>

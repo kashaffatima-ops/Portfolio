@@ -1,0 +1,245 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #90a3b4, #567d9c, #0f4162);
+  }
+  
+  
+  .header {
+    width:inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #0f4162;
+ 
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+
+  }
+  
+  .nav a {
+  
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .main {
+    display: flex;
+    flex-direction:row;
+    gap:30px;
+    width:auto;
+    height: 550px;
+    padding: 30px;
+  }
+  
+  .contentbox,
+  .contentboxinterests {
+    background-color: rgba(96, 96, 96, 0.474);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    width:50%;
+   
+  }
+  
+.careerbox {
+    background-color: rgba(96, 96, 96, 0.474);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width:50%;
+    margin-bottom: 20px;
+}
+
+  .title {
+    font-size: 36px;
+    color: #2c5282;
+    margin-bottom: 20px;
+  }
+  
+  .skillscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .skillitem {
+    width: 80%;
+  }
+  
+  .skillitem label {
+    font-size: 1.2em;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #021142; 
+  }
+
+  
+  .intereststitle {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #021142;
+
+  }
+  
+  .interestsdescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: larger;
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    
+  }
+
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    height: 150px;
+  }
+  
+  .footer p {
+
+    margin-right: 30px;
+  }
+  
+  .mylinks {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .mylinks:hover {
+    opacity: 0.8;
+    background-color: #567d9c;
+  }
+  .mylinkskills
+  {
+
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+
+  }
+  i{
+    color: #b4bfc8;
+  }
+  .mylinkskills:hover
+  {
+    color: #567d9c;
+  }
+
+
+.pictureContainer{
+    width: 100%;           
+    height: 100%;          
+    overflow: hidden; 
+}
+
+.listItems{
+   margin-left: 70px;
+   text-align: justify;
+   text-indent: 30px;
+   margin-top: 40px;
+   margin-left: 100px;
+}
+
+#quoteBtn{
+    height: inherit;
+    width: 400px;
+    background-color: #0f4162;
+    color: white;
+    margin-left: 630px;
+    padding: 30px;
+    padding-left: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#quoteBtn:hover{
+    background-color: #031a28;
+}
+
+.card {
+    background-color: rgba(96, 96, 96, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #021142;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    height: 70%;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .pimage {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .projtitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .projdescription {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #e0e0e0;
+  }
+  
+  .gitlink {
+    display: inline-block;
+    color: #00bfff;
+    font-weight: bold;
+   
+  }
+  
+  .gitlink:hover {
+    text-decoration: underline;
+  }
+

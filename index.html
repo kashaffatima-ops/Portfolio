@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+   
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        padding: 20px;
+      }
+
+      .nav a {
+        margin-right: 15px;
+        color: white;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 150px 20px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        color: white;
+      }
+
+      @media (max-width: 640px) {
+        .nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .nav a {
+          margin-bottom: 10px;
+          font-size: 1.2rem;
+        }
+
+        main {
+          padding: 80px 10px; 
+        }
+
+        .bg-gray-600 {
+          width: 90%;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        .nav {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        .nav a {
+          font-size: 1.5rem;
+        }
+
+        main {
+          padding: 120px 20px;
+        }
+
+        .bg-gray-600 {
+          width: 80%; 
+        }
+      }
+
+      @media (min-width: 1025px) {
+        .nav a {
+          font-size: 1.8rem; 
+        }
+
+        main {
+          padding: 150px 40px; 
+        }
+
+        .bg-gray-600 {
+          width: 66.67%; 
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-r"
+    style="--tw-gradient-from: #90a3b4; --tw-gradient-via: #567d9c; --tw-gradient-to: #0f4162; background-image: url('homeBackground.jpg'); background-size: cover; background-position: center;"
+  >
+    <div>
+      <header class="header">
+        <img class="logo" src="homePageLogo.png" alt="Skills Page Logo" />
+        <nav class="nav" >
+
+          <a href="index.html" style="   font-size: larger; font-weight: bold;">Home</a>
+          <a href="personelProfilePage.html" style="   font-size: larger; font-weight: bold;">Profile</a>
+          <a href="GalleryPage.html" style="   font-size: larger; font-weight: bold;">Gallery</a>
+          <a href="CareerGoals.html" style="   font-size: larger; font-weight: bold;">Career Goals</a>
+          <a href="Projects.html" style="   font-size: larger; font-weight: bold;">Projects</a>
+          <a href="SkillsandInterests.html" style="   font-size: larger; font-weight: bold;" >Skills and Interests</a>
+          <a href="ContactUs.html" style="   font-size: larger; font-weight: bold;">Contact Me</a>
+          
+        </nav>
+      </header>
+
+      <main class="flex flex-row justify-center items-center p-6">
+        <div class="bg-gray-600 rounded shadow-lg w-2/3 p-6 flex flex-col justify-between bg-opacity-50 mr-6 rounded-xl" style="width: 66.67%;margin: 150px;"  >
+          <h1 class="text-cyan-950 text-4xl font-bold mt-12 mb-2">Hi! This is Kashaf Fatima. Welcome to my Portfolio website.</h1>
+          <h3 class="text-cyan-900 italic text-2xl font-bold mb-4">Software Engineer</h3>
+          <p class="text-white text-lg font-normal flex-grow text-align text-justify">
+            I love working on backend development, always eager to learn new stuff. I’m seeking guidance to improve and become even better at it. My goal is to excel in backend development and contribute to successful projects.
+          </p>
+        </div>
+      </main>
+      
+    </div>
+
+    <footer class="footer">
+      <p>Contact me:</p>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram mylinkskills"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-facebook mylinkskills"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-linkedin mylinkskills"></i></a>
+    </footer>
+  </body>
+</html>
